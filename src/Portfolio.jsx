@@ -34,7 +34,7 @@ export default function Portfolio() {
   };
 
   const projectLinks = [
-    "https://github.com/FatemehRajabi/forex-prediction",
+    "https://github.com/FatemehRajabi/gold-usd-prediction",
     "https://github.com/FatemehRajabi/blog-api",
     "https://github.com/FatemehRajabi/frontend-blog",
     "https://github.com/FatemehRajabi/weka-ml-report"
