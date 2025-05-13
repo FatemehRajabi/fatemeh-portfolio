@@ -47,7 +47,7 @@ export default function Portfolio() {
       url: projectLinks[0]
     },
     {
-      title: 'Blog API Development',
+      title: 'Ecommerce API Development',
       desc: 'RESTful API built with Java, Spring Boot, MySQL, Spring Security. Includes full CRUD and authentication functionality. Tested using Postman.',
       url: projectLinks[1]
     },
