@@ -36,7 +36,7 @@ export default function Portfolio() {
   const projectLinks = [
     "https://github.com/FatemehRajabi/gold-usd-prediction",
     "https://github.com/FatemehRajabi/ecommerce-fullstack",
-    "https://github.com/FatemehRajabi/frontend-blog",
+    "https://github.com/FatemehRajabi/reinforcement-learning-atari-agents",
     "https://github.com/FatemehRajabi/weka-ml-report"
   ];
 
@@ -52,8 +52,8 @@ export default function Portfolio() {
       url: projectLinks[1]
     },
     {
-      title: 'Frontend Blog Website',
-      desc: 'React-based frontend for the blog API with responsive UI and functionality for posting, editing, and viewing content. Built independently from scratch.',
+      title: 'Reinforcement Learning: Atari Game Agents',
+      desc: 'Trained two deep reinforcement learning agents to play Pong and MsPacman using A2C and PPO algorithms. Built using Python, Stable-Baselines3, and OpenAI Gym. Included gameplay evaluation, saved model files, and training scripts.',
       url: projectLinks[2]
     },
     {
