@@ -37,7 +37,7 @@ export default function Portfolio() {
     "https://github.com/FatemehRajabi/gold-usd-prediction",
     "https://github.com/FatemehRajabi/ecommerce-fullstack",
     "https://github.com/FatemehRajabi/reinforcement-learning-atari-agents",
-    "https://github.com/FatemehRajabi/weka-ml-report"
+    "https://https://github.com/FatemehRajabi/mistral-summarizer"
   ];
 
   const projects = [
@@ -57,8 +57,8 @@ export default function Portfolio() {
       url: projectLinks[2]
     },
     {
-      title: 'Weka ML Project Report',
-      desc: 'Used Weka to apply supervised learning on a real-world dataset. Generated evaluation reports and visualized results as part of an academic lab project.',
+      title: 'Mistral AI Summarization Tool',
+      desc: 'Built a text summarization tool using the Mistral LLM API and Python SDK. Explored prompt engineering, API usage, and practical application of large language models in natural language processing (NLP).',
       url: projectLinks[3]
     }
   ];
