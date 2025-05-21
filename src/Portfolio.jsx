@@ -96,7 +96,7 @@ export default function Portfolio() {
             AI/ML Enthusiast | Full-Stack Java Developer
           </h2>
           <p className="lead mx-auto w-75">
-            Passionate about building intelligent systems and web apps. Currently pursuing a Master’s in Computer Science with a focus on AI, ML, and Full-Stack Development.
+            Passionate about building intelligent systems and web applications. Currently pursuing a Master’s in Computer Science with a concentration in AI, Robotics, and Gaming.
           </p>
           <a href="/Fatemeh%20Rajabi%20-%20resume.pdf" download className="btn mt-3" style={{ backgroundColor: colors.highlight, color: colors.dark, border: `1px solid ${colors.accent}` }}>
             Download Resume
@@ -108,8 +108,7 @@ export default function Portfolio() {
           <div className="row align-items-center">
             <div className="col-md-6">
               <p>
-                I’m Fatemeh, a curious mind on a mission to combine the power of Artificial Intelligence with Full-Stack Development. I have hands-on experience with Python, Java, React, and machine learning tools like TensorFlow and Weka.
-              </p>
+                I'm Fatemeh, an aspiring AI Engineer passionate about artificial intelligence and machine learning. I have hands-on experience with tools like TensorFlow and Weka, and I combine this with strong programming skills in Python, Java, and React to build intelligent and scalable applications.              </p>
             </div>
             <div className="col-md-6 text-center">
               <img src="/photo.jpg" alt="Fatemeh Rajabi" className="rounded-circle border" style={{ width: '200px', height: '200px', objectFit: 'cover' }} />
