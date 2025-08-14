@@ -61,7 +61,7 @@ export default function Portfolio() {
       title: 'Mistral AI Summarization Tool',
       desc: 'Built a text summarization tool using the Mistral LLM API and Python SDK. Explored prompt engineering, API usage, and practical application of large language models in natural language processing (NLP).',
       url: projectLinks[3]
-    }
+    },
     {
       title: 'AI-Powered Chat Application (In Progress)',
       desc: 'Building an interactive AI-powered chat application inspired by modern chatbot UIs. Implementing real-time messaging, AI API integration, and a responsive interface with React and Tailwind CSS. Features will include conversation history, customizable themes, and smooth animations.',
