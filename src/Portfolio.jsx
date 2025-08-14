@@ -63,8 +63,8 @@ export default function Portfolio() {
       url: projectLinks[3]
     },
     {
-      title: 'AI-Powered Chat Application (In Progress)',
-      desc: 'Building an interactive AI-powered chat application inspired by modern chatbot UIs. Implementing real-time messaging, AI API integration, and a responsive interface with React and Tailwind CSS. Features will include conversation history, customizable themes, and smooth animations.',
+      title: 'Transformer from Scratch (PyTorch) - In Progress',
+      desc: 'Implementing the Transformer architecture end-to-end in PyTorch: embeddings, positional encodings, multi-head self-attention, layer norm, residuals, encoder/decoder stacks, training & validation loops, and attention visualization.',
       url: projectLinks[4]
     }
   ];
