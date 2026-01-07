@@ -25,13 +25,17 @@ export default function Portfolio() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const colors = {
-  primary: '#1f2933',     // dark slate (nav, cards)
-  secondary: '#f9fafb',   // off-white (page background)
-  accent: '#3b82f6',      // soft blue (links, buttons)
-  highlight: '#e5e7eb',   // light gray (text on dark)
-  dark: '#111827'         // near-black (headings)
+const colors = {
+  primary: '#253652ff',     // blue-gray
+  secondary: '#f8fafc',   // very light gray
+  accent: '#14b8a6',      // teal (fresh, modern)
+  highlight: '#e2e8f0',
+  dark: '#0f172a'
 };
+
+
+
+
 
 
   const projectLinks = [
@@ -81,7 +85,14 @@ title: 'Serverless Feedback Analytics & BI Platform',
     <>
       <nav className="navbar navbar-expand-lg sticky-top shadow-sm" style={{ backgroundColor: colors.primary }}>
         <div className="container">
-          <a className="navbar-brand fw-bold" style={{ color: colors.highlight }} href="#top">Fatemeh</a>
+          <a className="navbar-brand" href="#top">
+  <img
+    src="/favicon.png"
+    alt="Fatemeh Rajabi logo"
+    style={{ height: '32px' }}
+  />
+</a>
+
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
