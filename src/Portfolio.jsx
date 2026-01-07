@@ -35,9 +35,10 @@ export default function Portfolio() {
 
   const projectLinks = [
     "https://github.com/FatemehRajabi/gold-usd-prediction",
+    "https://github.com/FatemehRajabi/insights-hub",
     "https://github.com/FatemehRajabi/ecommerce-fullstack",
     "https://github.com/FatemehRajabi/reinforcement-learning-atari-agents",
-    "https://https://github.com/FatemehRajabi/mistral-summarizer",
+    "https://github.com/FatemehRajabi/mistral-summarizer",
     "https://github.com/FatemehRajabi/transformer-model"    
   ];
 
@@ -48,24 +49,30 @@ export default function Portfolio() {
       url: projectLinks[0]
     },
     {
+title: 'Serverless Feedback Analytics & BI Platform',
+      desc: 'AWS-based analytics platform that collects user feedback and provides real-time insights using Lambda, API Gateway, Athena, S3, and QuickSight. Features Cognito authentication, SQL-driven metrics, and interactive dashboards for decision-making.',
+      githubUrl: projectLinks[1],
+      liveUrl: "https://d210uwax0fmibn.cloudfront.net/"
+    },
+    {
       title: 'Ecommerce API Development',
       desc: 'RESTful API built with Java, Spring Boot, MySQL, Spring Security. Includes full CRUD and authentication functionality. Tested using Postman.',
-      url: projectLinks[1]
+      url: projectLinks[2]
     },
     {
       title: 'Reinforcement Learning: Atari Game Agents',
       desc: 'Trained two deep reinforcement learning agents to play Pong and MsPacman using A2C and PPO algorithms. Built using Python, Stable-Baselines3, and OpenAI Gym. Included gameplay evaluation, saved model files, and training scripts.',
-      url: projectLinks[2]
+      url: projectLinks[3]
     },
     {
       title: 'Mistral AI Summarization Tool',
       desc: 'Built a text summarization tool using the Mistral LLM API and Python SDK. Explored prompt engineering, API usage, and practical application of large language models in natural language processing (NLP).',
-      url: projectLinks[3]
+      url: projectLinks[4]
     },
     {
       title: 'Transformer from Scratch (PyTorch) - In Progress',
       desc: 'Implementing the Transformer architecture end-to-end in PyTorch: embeddings, positional encodings, multi-head self-attention, layer norm, residuals, encoder/decoder stacks, training & validation loops, and attention visualization.',
-      url: projectLinks[4]
+      url: projectLinks[5]
     }
   ];
 
@@ -97,9 +104,9 @@ export default function Portfolio() {
 
       <div className="container py-5" style={{ backgroundColor: colors.secondary, color: '#fff' }}>
         <section id="top" className="text-center mb-5 p-4 rounded shadow" style={{ backgroundColor: colors.primary, color: colors.highlight }} data-aos="fade-down">
-          <h1 className="display-4 fw-bold" style={{ color: colors.highlight }}>Fatemeh Rajabi</h1>
+          <h1 className="display-4 fw-bold" style={{ color: colors.highlight }}>Fatima Rajabi</h1>
           <h2 className="fs-4 fw-semibold mb-3" style={{ color: colors.accent }}>
-            AI/ML Enthusiast | Full-Stack Java Developer
+            AI/ML Engineer | Data Engineering & Cloud | Java & Python Developer
           </h2>
           <p className="lead mx-auto w-75">
             Passionate about building intelligent systems and web applications. Currently pursuing a Master’s in Computer Science with a concentration in AI, Robotics, and Gaming.
@@ -114,7 +121,7 @@ export default function Portfolio() {
           <div className="row align-items-center">
             <div className="col-md-6">
               <p>
-                I'm Fatemeh, an aspiring AI Engineer passionate about artificial intelligence and machine learning. I have hands-on experience with tools like TensorFlow and Weka, and I combine this with strong programming skills in Python, Java, and React to build intelligent and scalable applications.              </p>
+                Hi, I’m Fatima. I’m a Master’s student in Computer Science with focus on AI and Data Science. I have experience in machine learning, full-stack development, and a background in teaching, which improved my communication and teamwork skills. I am also completing an intensive 15-week aws program at Perscholas that helps me build strong cloud engineering skills. I’m passionate about working on practical projects, and I’m currently looking for opportunities where I can grow and contribute in a cloud and data-driven role.             </p>
             </div>
             <div className="col-md-6 text-center">
               <img src="/photo.png" alt="Fatemeh Rajabi" className="rounded-circle border" style={{ width: '200px', height: '200px', objectFit: 'cover' }} />
@@ -131,7 +138,28 @@ export default function Portfolio() {
                   <div className="card-body">
                     <h5 className="card-title fw-bold">{proj.title}</h5>
                     <p className="card-text">{proj.desc}</p>
-                    <a style={{ color: colors.highlight }} href={proj.url} target="_blank" rel="noreferrer">View on GitHub</a>
+                    <div className="d-flex gap-3 flex-wrap">
+  <a
+    style={{ color: colors.highlight }}
+    href={proj.githubUrl || proj.url}
+    target="_blank"
+    rel="noreferrer"
+  >
+    View on GitHub
+  </a>
+
+  {proj.liveUrl && (
+    <a
+      style={{ color: colors.accent }}
+      href={proj.liveUrl}
+      target="_blank"
+      rel="noreferrer"
+    >
+      Live Demo
+    </a>
+  )}
+</div>
+
                   </div>
                 </div>
               </div>
