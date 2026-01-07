@@ -28,7 +28,7 @@ export default function Portfolio() {
 const colors = {
   primary: '#253652ff',     // blue-gray
   secondary: '#f8fafc',   // very light gray
-  accent: '#14b8a6',      // teal (fresh, modern)
+  accent: '#52bfb2ff',      // teal (fresh, modern)
   highlight: '#e2e8f0',
   dark: '#0f172a'
 };
