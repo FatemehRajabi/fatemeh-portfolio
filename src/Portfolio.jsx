@@ -26,12 +26,13 @@ export default function Portfolio() {
   }, []);
 
   const colors = {
-    primary: '#264653',
-    accent: '#f4a261',
-    highlight: '#e9c46a',
-    secondary: '#2a9d8f',
-    dark: '#264653'
-  };
+  primary: '#1f2933',     // dark slate (nav, cards)
+  secondary: '#f9fafb',   // off-white (page background)
+  accent: '#3b82f6',      // soft blue (links, buttons)
+  highlight: '#e5e7eb',   // light gray (text on dark)
+  dark: '#111827'         // near-black (headings)
+};
+
 
   const projectLinks = [
     "https://github.com/FatemehRajabi/gold-usd-prediction",
@@ -102,7 +103,7 @@ title: 'Serverless Feedback Analytics & BI Platform',
         </div>
       </nav>
 
-      <div className="container py-5" style={{ backgroundColor: colors.secondary, color: '#fff' }}>
+      <div className="container py-5" style={{ backgroundColor: colors.secondary, color: colors.dark }}>
         <section id="top" className="text-center mb-5 p-4 rounded shadow" style={{ backgroundColor: colors.primary, color: colors.highlight }} data-aos="fade-down">
           <h1 className="display-4 fw-bold" style={{ color: colors.highlight }}>Fatima Rajabi</h1>
           <h2 className="fs-4 fw-semibold mb-3" style={{ color: colors.accent }}>
