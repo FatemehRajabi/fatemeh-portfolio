@@ -117,7 +117,7 @@ export default function Portfolio() {
                 I'm Fatemeh, an aspiring AI Engineer passionate about artificial intelligence and machine learning. I have hands-on experience with tools like TensorFlow and Weka, and I combine this with strong programming skills in Python, Java, and React to build intelligent and scalable applications.              </p>
             </div>
             <div className="col-md-6 text-center">
-              <img src="/photo.jpg" alt="Fatemeh Rajabi" className="rounded-circle border" style={{ width: '200px', height: '200px', objectFit: 'cover' }} />
+              <img src="/photo.png" alt="Fatemeh Rajabi" className="rounded-circle border" style={{ width: '200px', height: '200px', objectFit: 'cover' }} />
             </div>
           </div>
         </section>
