@@ -27,15 +27,11 @@ export default function Portfolio() {
 
 const colors = {
   primary: '#253652ff',     // blue-gray
-  secondary: '#d6e0eaff',   
+  secondary: '#e2e8efff',   
   accent: '#52bfb2ff',      
   highlight: '#e2e8f0',
   dark: '#0f172a'
 };
-
-
-
-
 
 
   const projectLinks = [
@@ -80,6 +76,34 @@ title: 'Serverless Feedback Analytics & BI Platform',
       url: projectLinks[5]
     }
   ];
+
+  const skillGroups = [
+  {
+    title: "Machine Learning & AI",
+    items: ["LSTM", "LLMs", "Time Series Forecasting", "Feature Engineering", "Model Evaluation", "Data Analysis"],
+  },
+  {
+    title: "Programming Languages",
+    items: ["Python", "Java", "SQL"],
+  },
+  {
+    title: "ML & Data Science Libraries",
+    items: ["TensorFlow", "PyTorch", "Scikit-learn", "Pandas", "Matplotlib"],
+  },
+  {
+    title: "Cloud & MLOps Foundations",
+    items: ["AWS (Lambda, S3, Athena, EC2, API Gateway, Cognito)", "Serverless Architectures", "Cloud-based Model Analytics"],
+  },
+  {
+    title: "Data & Visualization Tools",
+    items: ["Amazon Athena", "Amazon QuickSight", "Jupyter", "Git", "GitHub"],
+  },
+  {
+    title: "Operating Systems",
+    items: ["Linux", "Windows"],
+  },
+];
+
 
   return (
     <>
@@ -178,15 +202,27 @@ title: 'Serverless Feedback Analytics & BI Platform',
 
         <section className="mb-5" id="skills" data-aos="fade-left" style={{ backgroundColor: colors.accent, color: colors.dark, padding: '2rem', borderRadius: '10px' }}>
           <h3 className="fs-3 fw-bold mb-4 border-bottom pb-2" style={{ color: colors.primary }}>Skills</h3>
-          <div className="row g-3">
-            {['Python, Java, JavaScript, HTML, CSS', 'React, Spring Boot, MySQL, REST APIs', 'TensorFlow, Scikit-Learn, Weka, Pandas', 'LSTM, CNN, Time Series Forecasting', 'Git, VS Code, Jupyter', 'Strong communication, Quick learner'].map((skill, i) => (
-              <div className="col-md-4" key={i}>
-                <div className="card h-100 text-white" style={{ backgroundColor: colors.primary }}>
-                  <div className="card-body">{skill}</div>
-                </div>
-              </div>
-            ))}
-          </div>
+          <div className="row g-4">
+  {skillGroups.map((group, i) => (
+    <div className="col-md-6" key={i}>
+      <div
+        className="card h-100 border-2 shadow"
+        style={{ borderColor: colors.secondary, backgroundColor: colors.primary, color: colors.highlight }}
+      >
+        <div className="card-body">
+          <h5 className="card-title fw-bold" style={{ color: colors.highlight }}>
+            {group.title}
+          </h5>
+
+          <p className="card-text mb-0" style={{ color: colors.highlight, opacity: 0.95 }}>
+            {group.items.join(" • ")}
+          </p>
+        </div>
+      </div>
+    </div>
+  ))}
+</div>
+
         </section>
 
         <section className="text-center" id="contact" data-aos="zoom-in" style={{ backgroundColor: colors.primary, color: colors.highlight, padding: '2rem', borderRadius: '10px' }}>

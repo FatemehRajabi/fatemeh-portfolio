@@ -40,6 +40,8 @@
   transform: translateY(-4px);
   transition: transform 0.2s ease;
 }
-.about-text {
-  text-align: justify;
+
+#skills .card-text {
+  font-size: 0.95rem;
+  line-height: 1.6;
 }
