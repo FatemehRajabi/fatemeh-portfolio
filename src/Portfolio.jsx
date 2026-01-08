@@ -120,9 +120,6 @@ title: 'Serverless Feedback Analytics & BI Platform',
           <h2 className="fs-4 fw-semibold mb-3" style={{ color: colors.accent }}>
             AI/ML Engineer | Data Engineering & Cloud | Java & Python Developer
           </h2>
-          <p className="lead mx-auto w-75">
-            Passionate about building intelligent systems and web applications. Currently pursuing a Master’s in Computer Science with a concentration in AI, Robotics, and Gaming.
-          </p>
           <a href="/Fatemeh%20Rajabi%20-%20resume.pdf" download className="btn mt-3" style={{ backgroundColor: colors.highlight, color: colors.dark, border: `1px solid ${colors.accent}` }}>
             Download Resume
           </a>
@@ -132,7 +129,7 @@ title: 'Serverless Feedback Analytics & BI Platform',
           <h3 className="fs-3 fw-bold mb-4 border-bottom pb-2" style={{ color: colors.primary }}>About Me</h3>
           <div className="row align-items-center">
             <div className="col-md-6">
-              <p>
+              <p style={{ textAlign: 'justify' }}>
                 Hi, I’m Fatima. I’m a Master’s student in Computer Science with focus on AI and Data Science. I have experience in machine learning, full-stack development, and a background in teaching, which improved my communication and teamwork skills. I am also completing an intensive 15-week aws program at Perscholas that helps me build strong cloud engineering skills. I’m passionate about working on practical projects, and I’m currently looking for opportunities where I can grow and contribute in a cloud and data-driven role.             </p>
             </div>
             <div className="col-md-6 text-center">

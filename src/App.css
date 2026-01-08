@@ -40,3 +40,6 @@
   transform: translateY(-4px);
   transition: transform 0.2s ease;
 }
+.about-text {
+  text-align: justify;
+}
