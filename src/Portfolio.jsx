@@ -27,8 +27,8 @@ export default function Portfolio() {
 
 const colors = {
   primary: '#253652ff',     // blue-gray
-  secondary: '#f8fafc',   // very light gray
-  accent: '#52bfb2ff',      // teal (fresh, modern)
+  secondary: '#d6e0eaff',   
+  accent: '#52bfb2ff',      
   highlight: '#e2e8f0',
   dark: '#0f172a'
 };
@@ -139,7 +139,7 @@ title: 'Serverless Feedback Analytics & BI Platform',
         </section>
 
         <section className="mb-5" id="projects" data-aos="fade-right" style={{ backgroundColor: colors.secondary, color: colors.highlight, padding: '2rem', borderRadius: '10px' }}>
-          <h3 className="fs-3 fw-bold mb-4 border-bottom pb-2" style={{ color: colors.highlight }}>Projects</h3>
+          <h3 className="fs-3 fw-bold mb-4 border-bottom pb-2" style={{ color: colors.primary }}>Projects</h3>
           <div className="row g-4">
             {projects.map((proj, i) => (
               <div className="col-md-6" key={i}>
